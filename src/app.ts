@@ -46,7 +46,7 @@ if (process.env.NODE_ENV === 'development') {
     })
 
     await server.register(scalarAPIReference, {
-    routePrefix: '/docs',
+        routePrefix: '/docs',
     })
 }
 
